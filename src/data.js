@@ -20,6 +20,9 @@ export const profile = {
   ]
 };
 
+// Email used by the Contact section (fixes the missing export build error).
+export const DIRECT_EMAIL = profile.email;
+
 export const skills = [["HTML5"], ["CSS3"], ["JavaScript"], ["Tailwind CSS"], ["Bootstrap"], ["GSAP"], ["React"], ["Redux Toolkit"], ["Express.js", "Learning"], ["Firebase"], ["REST APIs"], ["Git & GitHub"], ["AI crafts"]];
 
 // Tip: put your deployed site URL in a project's "live" field to show the real site in its preview window.
